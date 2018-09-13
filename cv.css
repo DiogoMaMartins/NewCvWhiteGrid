@@ -1,0 +1,81 @@
+body{
+  color:black;
+  font-family:"Nunito Semibold";
+  text-decoration: center;
+}
+
+#corpo{
+  display:grid;
+  grid-template-columns: 30% 50%;
+  grid-column-start:1;
+  grid-column-end:3;
+  max-width:960px;
+  margin:0 auto;
+
+}
+#corpo div{
+  background:white;/*change the color for understand,assDiogoMAMAtins*/
+  padding:30px;
+
+}
+#corpo div:nth-child(even){
+  background:white;/*change the color for understand,assDiogoMAMAtins*/
+}
+.expandir{
+  grid-column-start:1;
+  grid-column-end:3;
+  color:red;
+
+
+}
+
+.ladoE{
+  color:blue;
+  font-size:40px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: fantasy;
+}
+
+.ladoD{
+  color:red;
+  font-size:35px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: fantasy;
+}
+
+hr {
+      color: #f00;
+      background-color: #f00;
+      height: 5px;
+    }
+
+h2{
+  font-size:30px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: fantasy;
+  color:blue;
+}
+.nome{
+  color:red;
+  font-size:40px;
+}
+
+img{
+  position:absolute;
+  float:right;
+  width:160;
+  height:180;
+  clear:right;
+  right:400px;
+}
+img:hover{
+  position:absolute;
+  float:right;
+  width:260;
+  height:280;
+  clear:right;
+  right:400px;
+}
